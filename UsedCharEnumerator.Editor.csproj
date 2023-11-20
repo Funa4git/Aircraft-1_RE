@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8E4DCD9-CBA0-1F81-B530-C2786EEDB7B4}</ProjectGuid>
+    <ProjectGuid>{DFFD5CA3-DBFA-D9CF-8CEC-84339DDD3170}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UsedCharEnumerator.Editor</AssemblyName>
@@ -746,7 +746,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UsedCharEnumerator.csproj">
-      <Project>{5E125AE7-1B57-EF9D-9C1A-0F1F2755CDB7}</Project>
+      <Project>{3A236409-37C6-625C-F2C3-7E47108771AE}</Project>
       <Name>UsedCharEnumerator</Name>
     </ProjectReference>
   </ItemGroup>

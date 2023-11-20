@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5E125AE7-1B57-EF9D-9C1A-0F1F2755CDB7}</ProjectGuid>
+    <ProjectGuid>{3A236409-37C6-625C-F2C3-7E47108771AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UsedCharEnumerator</AssemblyName>
