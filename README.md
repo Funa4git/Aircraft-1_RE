@@ -9,11 +9,13 @@
 スマホ版の全ての機能を実装することができず、大変申し訳ございません。
 
 ## DL方法
-[AppStore](https://apps.apple.com/jp/app/aircraft-1/id6445912044)上で配信されています。（使用素材、一部仕様が異なります）
+### iOS版は [AppStore](https://apps.apple.com/jp/app/aircraft-1/id6445912044) 上で配信されています。（使用素材、一部仕様が異なります）
 
 ![image](https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/a548a7f7-0dd8-41a5-bd23-62280104c8e7)
 
-※GitHub上のReleaseのexeファイルをダウンロードすることでWindows上でもプレイ可能です。
+### GitHub上の [Release](https://github.com/Funa4git/Aircraft-1_RE/releases) のzipファイルをダウンロードすることでWindows上でもプレイ可能です。
+
+<img src="https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/8a634c9f-6b46-442b-bcd9-f34c72c68983" width=600>
 
 ## 特徴
 ### ＜操作＞
@@ -22,17 +24,17 @@
 ジャイロ操作により操縦桿を握っているかのような感覚でプレイできるのがアピールポイントです。
 
 ### ＜非プログラマへのアシスト＞
-#### 会話パートはcsv（Excel）で制御が可能
+- 会話パートはcsv（Excel）で制御が可能
 
 ![image](https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/557c97ad-8a94-44c8-adb3-4a887aeb2b7a)
 
 
-#### ステージのPrefab化により、GUIでステージを制御
+- ステージのPrefab化により、GUIでステージを制御
 
 ![image](https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/eef5166f-04e4-4989-8c0f-9dbf0b9edf35)
 
 
-#### 敵の出現順もGUIで制御可能
+- 敵の出現順もGUIで制御可能
 
 ![image](https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/258d576e-79ae-4620-a8ce-fe6f12068c4d)
 
@@ -41,10 +43,10 @@
 Stage 2 ボスでは敵の体力に応じて４段階の攻撃パータンが変化します。
 
 ## Credit
-立ち絵：三日月アルペジオ
+- 立ち絵：三日月アルペジオ
 
-BGM：OtoLogic
+- BGM：OtoLogic
 
-SE：OtoLogic
+- SE：OtoLogic
 
-キャラクターボイス：VOICEPEAKにより生成
+- キャラクターボイス：VOICEPEAKにより生成
