@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd392093e8738e499049c5bf95e5d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: bb386b7fd3d7f034287e0b3baf06d183, type: 3}
+  csvFile: {fileID: 4900000, guid: e9eab75b85ec8d64d8e0e93c5b6b4849, type: 3}
   CharacterImages_Left: {fileID: 6177061339542789004}
   CharacterImages_Right: {fileID: 2614255447009818420}
   characterCanvas: {fileID: 4809949534737062331}
