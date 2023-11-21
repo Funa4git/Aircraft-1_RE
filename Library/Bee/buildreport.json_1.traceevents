@@ -1,0 +1,563 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1700549777374547, "dur": 1954992, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549777374739, "dur": 3186, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549777377928, "dur": 31554, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549777409483, "dur": 931959, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549778341444, "dur": 973913, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549779315359, "dur": 14179, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549779330079, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1700549777875906, "dur": 453266, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549777876777, "dur": 42889, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549778313888, "dur": 4395, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549778318287, "dur": 10877, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549778318865, "dur": 9465, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549778333753, "dur": 1343, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700549778332848, "dur": 2274, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549779330152, "dur": 177, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1700549778383355, "dur":918, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549778384280, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1700549778384329, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1700549778384342, "dur":342, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1700549778384710, "dur":653, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549778385363, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779301870, "dur":271, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302141, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302209, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302213, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302232, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302234, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302240, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302241, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302246, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302247, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302251, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302252, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302257, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302259, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302263, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302264, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302270, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302274, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302275, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302280, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302282, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302286, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302287, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302291, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302297, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779302322, "dur":1070, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1700549778385053, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778385373, "dur":1479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778386863, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1700549778386923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778389823, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1700549778392441, "dur":9948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1700549778402393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778402401, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1700549778403393, "dur":59871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778463270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778463322, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778465682, "dur":30612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778496299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778496309, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778498309, "dur":175314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778673626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778673635, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778675303, "dur":32251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778707580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778707587, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778708794, "dur":38267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778747068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778747079, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778748918, "dur":58679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778807602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549778807611, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549778809126, "dur":338022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549779147152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700549779147162, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700549779150582, "dur":151288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778385084, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778385384, "dur":1473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778386864, "dur":13952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1700549778400821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778400851, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1700549778402294, "dur":43297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778445597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778445607, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778447613, "dur":36813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778484434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778484446, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778486254, "dur":75037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778561295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778561304, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778563454, "dur":44585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778608043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778608081, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778609895, "dur":24541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778634443, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778634454, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778635847, "dur":26378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778662230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778662239, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778663244, "dur":28475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778691722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778691732, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778693034, "dur":29800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778722840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549778722852, "dur":7135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549778730035, "dur":296119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549779026158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549779026165, "dur":12598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549779038780, "dur":205682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549779244466, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700549779244475, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700549779245531, "dur":56351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778385110, "dur":282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778385393, "dur":1461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778386864, "dur":13371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1700549778400290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778400368, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1700549778401847, "dur":34213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778436066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778436525, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778437771, "dur":36049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778473826, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778473837, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778475554, "dur":83198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778558757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778558935, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778562166, "dur":45996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778608166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778608182, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778610274, "dur":25883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778636160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778636166, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778637274, "dur":26664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778663944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778663955, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778666942, "dur":28069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778695016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778695026, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778696194, "dur":71950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778768148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778768157, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778771457, "dur":1907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778773370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778773380, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778774623, "dur":48715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778823366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778823376, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778826073, "dur":99196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778925274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549778925283, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549778927033, "dur":97801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549779024840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549779024851, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549779027609, "dur":271685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549779299298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700549779299306, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700549779301824, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1700549779301827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778385152, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778385414, "dur":1437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778386864, "dur":40736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1700549778427606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778428169, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1700549778429303, "dur":41456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778470766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778470777, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778472237, "dur":29414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778501654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778501661, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778503922, "dur":46927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778550853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778550861, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778552218, "dur":24393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778576616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778576627, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778577845, "dur":41548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778619423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778619430, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778621256, "dur":26849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778648131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778648140, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778650736, "dur":39526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778690266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778690273, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778691465, "dur":26076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778717546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778717556, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778721320, "dur":45949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778767275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778767285, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778768483, "dur":50496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778819023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778819034, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778821110, "dur":170107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778991224, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549778991254, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549778993192, "dur":159594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549779152791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700549779152799, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700549779154114, "dur":147759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778385144, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778385403, "dur":1452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778386864, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1700549778387103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778389801, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1700549778393006, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1700549778393045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778393478, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1700549778395187, "dur":147165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778542358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778542749, "dur":8138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778550926, "dur":109145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778660074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778660081, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778661469, "dur":27636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778689127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778689135, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778690688, "dur":26755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778717449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778717460, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778721997, "dur":35240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778757243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778757255, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778759092, "dur":1399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778760529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778760539, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778761586, "dur":63049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778824640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778824648, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778828352, "dur":53754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778882113, "dur":129, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549778882255, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549778885042, "dur":124992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549779010040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549779010050, "dur":6327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549779016395, "dur":149459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549779165858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700549779165867, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700549779167451, "dur":134424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778385194, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778385423, "dur":1483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778386907, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1700549778386975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778389944, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1700549778392635, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1700549778392666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778393687, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1700549778396017, "dur":105431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1700549778501454, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778501464, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1700549778503811, "dur":155570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778659387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778659398, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778660850, "dur":27110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778687966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778688086, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778690198, "dur":132883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778823107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778823117, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778826215, "dur":86747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778912968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549778912978, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549778914422, "dur":282788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549779197214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700549779197223, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700549779199281, "dur":102604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778385231, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778385435, "dur":1455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778386893, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1700549778387069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778389842, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1700549778392807, "dur":11340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1700549778404151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778404160, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1700549778405264, "dur":48406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778453676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778453686, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778455102, "dur":30951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778486116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778486126, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778488119, "dur":61769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778549895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778549907, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778551266, "dur":68028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778619300, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778619311, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778625851, "dur":61369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778687226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778687237, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778688532, "dur":25496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778714034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778714045, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778715202, "dur":183832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778899040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778899051, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778901596, "dur":61868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778963470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549778963484, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549778964595, "dur":134650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549779099250, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779099261, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700549779100752, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1700549779100906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779101362, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1700549779102437, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1700549779102451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779102489, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1700549779103901, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1700549779103935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779103944, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1700549779105630, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779105643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779105672, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779107215, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779107229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779107237, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779109158, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779109222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779109230, "dur":10190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779119438, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779119569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779119577, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779123847, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1700549779124062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779124074, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1700549779125562, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1700549779125578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779125586, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1700549779128202, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779128237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779128259, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779131702, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779131718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779131726, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1700549779132792, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1700549779132804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779132808, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1700549779133868, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779133880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700549779133885, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1700549779138231, "dur":163628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778385283, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778385443, "dur":1438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778386885, "dur":12852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1700549778399743, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778399968, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1700549778401333, "dur":84065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778485404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778485414, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778487461, "dur":30882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778518349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778518359, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778521076, "dur":50704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778571786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778571797, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778574155, "dur":30409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778604571, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778604583, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778606701, "dur":27854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778634558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778634566, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778635868, "dur":32499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778668373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778668382, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778670344, "dur":71393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778741876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778741897, "dur":5257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778747177, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778748397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778748406, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778751524, "dur":34795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778786325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778786388, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778788262, "dur":132701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778920986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549778921005, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549778923935, "dur":205622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549779129561, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779129619, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700549779132320, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1700549779132336, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779132357, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1700549779133733, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1700549779133745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779133751, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1700549779135266, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700549779135281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779135295, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700549779136408, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1700549779136421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779136427, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1700549779137655, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1700549779137804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700549779137811, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1700549779138889, "dur":162975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778385330, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778385450, "dur":1420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778386875, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1700549778386975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778390532, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1700549778393510, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1700549778393537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778393543, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1700549778396073, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1.exe" }}
+,{ "pid":12345, "tid":9, "ts":1700549778396597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778396604, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1.exe" }}
+,{ "pid":12345, "tid":9, "ts":1700549778398259, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1700549778398300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778398559, "dur":11780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1700549778410365, "dur":30998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778441369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778442685, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778445209, "dur":118190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778563405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778563415, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778564978, "dur":42892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778607876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778607886, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778611517, "dur":60116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778671639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778671648, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778672928, "dur":34556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778707490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778707500, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778708899, "dur":49249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778758152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778758160, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778761962, "dur":2090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778764058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778764069, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778767071, "dur":35561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778802638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778802650, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778806735, "dur":121842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778928583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549778928594, "dur":7548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549778936164, "dur":201786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549779137953, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1700549779137962, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1700549779141573, "dur":160305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778385370, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778385370, "dur":1480, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778386863, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1700549778386872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778387850, "dur":316, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1700549778388170, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1700549778388191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778388449, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1700549778392028, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1700549778392190, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778393461, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1700549778395058, "dur":68365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778463425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778463707, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778465132, "dur":30496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778495634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778495645, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778497778, "dur":57704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778555488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778555500, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778557132, "dur":69259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778626394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778626403, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778627671, "dur":41693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778669370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778669380, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778671764, "dur":31235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778703005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778703016, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778704645, "dur":42713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778747361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778747370, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778752121, "dur":55684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778807810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778807821, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778810874, "dur":89276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778900155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549778900165, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549778903244, "dur":202694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549779105944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779105954, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1700549779107928, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1700549779107941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779107947, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1700549779111774, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1700549779111789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779111797, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1700549779113371, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1700549779113386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779113395, "dur":5198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1700549779118627, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1700549779118670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779118679, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1700549779124355, "dur":20632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1700549779144993, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1700549779145014, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1700549779146407, "dur":155474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778385432, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778385432, "dur":1467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778386903, "dur":14575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1700549778401495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778401512, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1700549778403003, "dur":74304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778477313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778477323, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778478717, "dur":26848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778505570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778505579, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778507732, "dur":48219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778555955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778555961, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778560933, "dur":46930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778607870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778607883, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778611456, "dur":45314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778656776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778656789, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778658945, "dur":127754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778786702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778786709, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778788138, "dur":35078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778823219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549778823226, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549778825994, "dur":193959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549779019958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549779019983, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549779025194, "dur":110639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549779135836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1700549779135842, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1700549779137982, "dur":163879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778385477, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778385477, "dur":1383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778386864, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1700549778387177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778389812, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1700549778393397, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1700549778393427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778393435, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1700549778395476, "dur":316871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549778712352, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778712362, "dur":15703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549778728089, "dur":88909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549778817004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549778817015, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549778821326, "dur":218956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549779040287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549779040296, "dur":33465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549779073780, "dur":126579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549779200365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1700549779200375, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/konim/Desktop///Aircraft-1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1700549779201415, "dur":100461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700549779304286, "dur":1750, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1700549779330370, "dur": 602, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700549779330066, "dur": 921, "ph": "X", "name": "Write chrome-trace events", "args": {} },

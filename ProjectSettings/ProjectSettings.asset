@@ -44,8 +44,6 @@ PlayerSettings:
     duration: 2
   - logo: {fileID: 21300000, guid: 61347389f0348436e99e981a608a7107, type: 3}
     duration: 2
-  - logo: {fileID: 21300000, guid: 12c93c508eabb6047aabe0f294f93144, type: 3}
-    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -140,7 +138,7 @@ PlayerSettings:
     16:10: 0
     16:9: 0
     Others: 0
-  bundleVersion: 1.1.0
+  bundleVersion: 2.0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

@@ -1703,7 +1703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "< \u30DC\u30A4\u30B9 >\n\n\u5DEE\u3057\u66FF\u3048\u672A\u5B9A"
+  m_Text: "< \u30DC\u30A4\u30B9 >\n\nVOICEPEAK\u306B\u3066\u751F\u6210"
 --- !u!222 &1797527667
 CanvasRenderer:
   m_ObjectHideFlags: 0
