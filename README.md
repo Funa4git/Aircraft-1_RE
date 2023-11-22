@@ -15,7 +15,7 @@
 
 ### GitHub上の [Release](https://github.com/Funa4git/Aircraft-1_RE/releases) のzipファイルをダウンロードすることでWindows上でもプレイ可能です。
 
-<img src="https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/8a634c9f-6b46-442b-bcd9-f34c72c68983" width=600>
+<img src="https://github.com/Funa4git/Aircraft-1_RE/assets/83420947/054e3d47-bc4a-4c44-801e-54f2b4e6f99b" width=600>
 
 ## 特徴
 ### ＜操作＞
